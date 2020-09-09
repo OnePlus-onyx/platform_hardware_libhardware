@@ -259,8 +259,8 @@ enum {
 
 /* Display types and associated mask bits. */
 enum {
-    HWC_DISPLAY_PRIMARY     = 0,
-    HWC_DISPLAY_EXTERNAL    = 1,    // HDMI, DP, etc.
+    HWC_DISPLAY_PRIMARY     = 1,
+    HWC_DISPLAY_EXTERNAL    = 0,    // HDMI, DP, etc.
     HWC_DISPLAY_VIRTUAL     = 2,
 
     HWC_NUM_PHYSICAL_DISPLAY_TYPES = 2,
